@@ -1,6 +1,8 @@
 # cpp-syn-scan-network
 C++ program to scan if some ports are open by sending SYN packets to all IP(s) in a network
 
+A simple tool to scan target hosts for open ports. Uses [libtins](https://github.com/mfontanini/libtins), C++ network packet sniffing and crafting library.
+
 ## Usage
 Need root permission
 ```
