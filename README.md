@@ -15,6 +15,18 @@ Example:
 
 ## Example
 ```
+$ sudo ./syn-scan-network 35.186.153.3 80,443,8080
+Running on interface: eno1
+SYN scan [35.186.153.3]:[80,443,8080]
+1 host(s): 35.186.153.3 -> 35.186.153.3
+
+35.186.153.3 (arzhon.id)		Port: 443 open
+35.186.153.3 (arzhon.id)		Port: 80 open
+
+Total open hosts: 1 host(s)
+Scan duration: 0 hour(s) 0 min(s) 1.0573 sec(s)
+
+
 $ sudo ./syn-scan-network 166.104.96.13/30 80,8080
 Running on interface: eno1
 SYN scan [166.104.96.13/30]:[80,8080]
