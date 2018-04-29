@@ -70,7 +70,7 @@ private:
 	std::set<uint16_t> target_ports;
 	Sniffer sniffer;
 
-	int total_open_host;
+	std::set<std::string> open_hosts;
 	double program_duration;
 	struct timespec start_time, finish_time;
 };
@@ -103,8 +103,6 @@ Scanner::Scanner(const NetworkInterface &interface,
     // sniffer.set_filter(
     //     "tcp and ip src " + target_addresses.to_string() + " and tcp[tcpflags] & (tcp-rst|tcp-syn) != 0"
     // );
-
-	total_open_host = 0;
 
     for(size_t a = 0; a < target_ports.size(); a++){
         this->target_ports.insert(atoi(target_ports[a].c_str()));
@@ -144,7 +142,7 @@ bool Scanner::callback(PDU &pdu){
             // std::cout << ip_address << " (" << ip_to_host(ip_address.c_str()) << ")\tPort: " << tcp.sport() << " closed\n";
         }else if(tcp.flags() == (TCP::SYN | TCP::ACK)){
             std::cout << ip_address << " (" << ip_to_host(ip_address.c_str()) << ")\t\tPort: " << tcp.sport() << " open\n";
-            ++total_open_host;
+            open_hosts.insert(ip_address);
         }
     }
     return true;
@@ -163,7 +161,7 @@ void Scanner::run(){
     void *dummy;
     pthread_join(thread, &dummy);
 
-    std::cout << "\nTotal open hosts: " << total_open_host << " host(s)" << std::endl;
+    std::cout << "\nTotal open hosts: " << open_hosts.size() << " host(s)" << std::endl;
 
     end_clock();
 }
@@ -179,7 +177,7 @@ void Scanner::send_syn_packets(const NetworkInterface &iface){
     tcp.set_flag(TCP::SYN, 1);
     tcp.sport(46156);
 
-    total_open_host = 0;
+    open_hosts.clear();
     for(const auto &addr : target_addresses){
     	for(std::set<uint16_t>::const_iterator it = target_ports.begin(); it != target_ports.end(); ++it){
 	    	ip.dst_addr(addr);
