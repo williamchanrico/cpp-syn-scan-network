@@ -18,19 +18,7 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 
-/*
-	OSX:
-		homebrew install libtins
-
-	Linux:
-		Before comliling from source, try installing libtins package from distro's repository
-
-		git clone https://github.com/mfontanini/libtins.git
-		mkdir build
-		cd build
-		cmake ../
-		make
-*/
+/* https://github.com/mfontanini/libtins */
 #include <tins/ip.h>
 #include <tins/tcp.h>
 #include <tins/ip_address.h>
