@@ -31,6 +31,8 @@
 
 using namespace Tins;
 
+#define RATE_LIMIT 100
+
 void start_scan(int argc, char *argv[]);
 int parse_cidr(const char *cidr, struct in_addr *addr, struct in_addr *mask);
 const char *dotted_quad(const struct in_addr *addr);
@@ -165,17 +167,20 @@ void Scanner::send_syn_packets(const NetworkInterface &iface){
     tcp.set_flag(TCP::SYN, 1);
     tcp.sport(46156);
 
+    unsigned rate_limit_counter = 1;
     open_hosts.clear();
     for(const auto &addr : target_addresses){
     	for(std::set<uint16_t>::const_iterator it = target_ports.begin(); it != target_ports.end(); ++it){
+	        if(rate_limit_counter % RATE_LIMIT == 0) sleep(1);
+
 	    	ip.dst_addr(addr);
 	        tcp.dport(*it);
 	        sender.send(ip);
+	        
+	        rate_limit_counter = (rate_limit_counter + 1) % RATE_LIMIT;
 	    }
 	}
     
-    sleep(1);
-
     tcp.set_flag(TCP::RST, 1);
     tcp.sport(*target_ports.begin());
     ip.src_addr(*target_addresses.begin());
