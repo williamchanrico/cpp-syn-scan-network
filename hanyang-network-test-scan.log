@@ -1,0 +1,172 @@
+Running on interface: eno1
+SYN scan [166.104.0.0/16]:[80,8080]
+65536 host(s): 166.104.0.1 -> 166.104.255.254
+
+166.104.16.48 ( )		Port: 80 open
+166.104.16.61 ( )		Port: 80 open
+166.104.16.71 (pli.hanyang.ac.kr)		Port: 80 open
+166.104.16.85 ( )		Port: 80 open
+166.104.16.211 ( )		Port: 80 open
+166.104.16.213 ( )		Port: 80 open
+166.104.17.27 ( )		Port: 80 open
+166.104.17.86 ( )		Port: 80 open
+166.104.18.38 (mr.hanyang.ac.kr)		Port: 80 open
+166.104.18.76 ( )		Port: 8080 open
+166.104.18.171 ( )		Port: 80 open
+166.104.18.176 ( )		Port: 80 open
+166.104.25.118 ( )		Port: 80 open
+166.104.25.116 ( )		Port: 80 open
+166.104.25.126 ( )		Port: 80 open
+166.104.25.132 ( )		Port: 80 open
+166.104.28.40 ( )		Port: 80 open
+166.104.28.50 ( )		Port: 80 open
+166.104.28.51 ( )		Port: 8080 open
+166.104.28.77 ( )		Port: 80 open
+166.104.29.41 ( )		Port: 80 open
+166.104.29.119 ( )		Port: 80 open
+166.104.29.130 ( )		Port: 80 open
+166.104.29.153 ( )		Port: 80 open
+166.104.29.154 ( )		Port: 80 open
+166.104.29.153 ( )		Port: 8080 open
+166.104.30.21 ( )		Port: 80 open
+166.104.30.81 ( )		Port: 80 open
+166.104.31.43 ( )		Port: 80 open
+166.104.31.91 ( )		Port: 8080 open
+166.104.31.99 ( )		Port: 8080 open
+166.104.31.160 ( )		Port: 80 open
+166.104.35.119 ( )		Port: 80 open
+166.104.35.141 ( )		Port: 80 open
+166.104.36.147 ( )		Port: 80 open
+166.104.41.95 ( )		Port: 80 open
+166.104.43.57 ( )		Port: 80 open
+166.104.43.67 ( )		Port: 80 open
+166.104.44.66 ( )		Port: 80 open
+166.104.45.18 (ccrl.hanyang.ac.kr)		Port: 80 open
+166.104.45.127 ( )		Port: 80 open
+166.104.46.11 (csl.hanyang.ac.kr)		Port: 80 open
+166.104.46.143 (mnlab.hanyang.ac.kr)		Port: 80 open
+166.104.46.187 ( )		Port: 80 open
+166.104.46.208 ( )		Port: 80 open
+166.104.47.35 ( )		Port: 80 open
+166.104.47.65 ( )		Port: 80 open
+166.104.47.131 ( )		Port: 80 open
+166.104.47.164 ( )		Port: 80 open
+166.104.47.195 ( )		Port: 80 open
+166.104.47.199 ( )		Port: 8080 open
+166.104.47.199 ( )		Port: 80 open
+166.104.47.208 ( )		Port: 8080 open
+166.104.48.38 ( )		Port: 80 open
+166.104.48.50 ( )		Port: 80 open
+166.104.50.83 ( )		Port: 80 open
+166.104.51.70 ( )		Port: 80 open
+166.104.51.71 ( )		Port: 80 open
+166.104.52.39 ( )		Port: 80 open
+166.104.52.44 ( )		Port: 80 open
+166.104.52.55 ( )		Port: 80 open
+166.104.52.97 (hep.hanyang.ac.kr)		Port: 80 open
+166.104.52.140 ( )		Port: 80 open
+166.104.53.208 ( )		Port: 80 open
+166.104.54.29 ( )		Port: 80 open
+166.104.54.201 ( )		Port: 80 open
+166.104.55.25 ( )		Port: 80 open
+166.104.55.73 ( )		Port: 80 open
+166.104.57.162 ( )		Port: 80 open
+166.104.58.20 ( )		Port: 80 open
+166.104.58.138 ( )		Port: 80 open
+166.104.58.170 ( )		Port: 80 open
+166.104.60.124 (vision.hanyang.ac.kr)		Port: 80 open
+166.104.60.139 ( )		Port: 80 open
+166.104.60.166 ( )		Port: 80 open
+166.104.60.203 ( )		Port: 80 open
+166.104.75.56 ( )		Port: 80 open
+166.104.75.57 ( )		Port: 80 open
+166.104.77.11 ( )		Port: 80 open
+166.104.77.48 ( )		Port: 80 open
+166.104.79.78 ( )		Port: 80 open
+166.104.80.70 ( )		Port: 80 open
+166.104.80.103 ( )		Port: 80 open
+166.104.80.208 ( )		Port: 80 open
+166.104.82.129 ( )		Port: 80 open
+166.104.90.11 ( )		Port: 80 open
+166.104.90.230 ( )		Port: 80 open
+166.104.96.13 (hmcgw.hanyang.ac.kr)		Port: 80 open
+166.104.96.12 ( )		Port: 80 open
+166.104.96.11 ( )		Port: 80 open
+166.104.96.24 ( )		Port: 80 open
+166.104.96.28 ( )		Port: 80 open
+166.104.99.111 ( )		Port: 80 open
+166.104.99.111 ( )		Port: 8080 open
+166.104.99.177 ( )		Port: 80 open
+166.104.100.57 ( )		Port: 8080 open
+166.104.160.12 ( )		Port: 80 open
+166.104.161.249 ( )		Port: 80 open
+166.104.163.12 ( )		Port: 80 open
+166.104.164.83 ( )		Port: 80 open
+166.104.164.103 ( )		Port: 80 open
+166.104.164.124 ( )		Port: 80 open
+166.104.165.64 ( )		Port: 8080 open
+166.104.168.58 ( )		Port: 80 open
+166.104.168.78 ( )		Port: 80 open
+166.104.168.186 ( )		Port: 80 open
+166.104.168.212 ( )		Port: 80 open
+166.104.169.48 ( )		Port: 8080 open
+166.104.169.87 ( )		Port: 80 open
+166.104.169.90 ( )		Port: 80 open
+166.104.177.24 (www.hanyang.ac.kr)		Port: 80 open
+166.104.177.50 ( )		Port: 80 open
+166.104.177.70 ( )		Port: 80 open
+166.104.177.71 ( )		Port: 80 open
+166.104.177.72 ( )		Port: 80 open
+166.104.184.10 ( )		Port: 8080 open
+166.104.185.41 ( )		Port: 80 open
+166.104.185.48 (ds.hanyang.ac.kr)		Port: 80 open
+166.104.185.48 (ds.hanyang.ac.kr)		Port: 8080 open
+166.104.186.82 ( )		Port: 80 open
+166.104.186.158 ( )		Port: 80 open
+166.104.187.219 (ericastudio.hanyang.ac.kr)		Port: 80 open
+166.104.188.47 ( )		Port: 80 open
+166.104.189.141 ( )		Port: 80 open
+166.104.199.15 ( )		Port: 80 open
+166.104.205.20 ( )		Port: 80 open
+166.104.205.114 ( )		Port: 80 open
+166.104.205.117 ( )		Port: 80 open
+166.104.205.128 ( )		Port: 80 open
+166.104.206.36 ( )		Port: 80 open
+166.104.206.113 ( )		Port: 80 open
+166.104.206.149 ( )		Port: 80 open
+166.104.209.78 ( )		Port: 80 open
+166.104.223.238 ( )		Port: 80 open
+166.104.223.238 ( )		Port: 80 open
+166.104.225.94 ( )		Port: 80 open
+166.104.229.193 ( )		Port: 80 open
+166.104.229.192 ( )		Port: 80 open
+166.104.229.197 ( )		Port: 80 open
+166.104.230.51 ( )		Port: 8080 open
+166.104.230.51 ( )		Port: 80 open
+166.104.230.128 ( )		Port: 80 open
+166.104.230.162 ( )		Port: 80 open
+166.104.230.166 ( )		Port: 80 open
+166.104.231.29 ( )		Port: 80 open
+166.104.231.121 ( )		Port: 80 open
+166.104.231.143 (cvpr.hanyang.ac.kr)		Port: 80 open
+166.104.231.166 ( )		Port: 80 open
+166.104.231.181 ( )		Port: 80 open
+166.104.231.203 ( )		Port: 80 open
+166.104.231.227 ( )		Port: 80 open
+166.104.232.42 ( )		Port: 80 open
+166.104.232.46 ( )		Port: 80 open
+166.104.232.86 ( )		Port: 80 open
+166.104.232.121 ( )		Port: 80 open
+166.104.232.138 ( )		Port: 80 open
+166.104.232.151 ( )		Port: 80 open
+166.104.232.165 ( )		Port: 80 open
+166.104.232.190 ( )		Port: 80 open
+166.104.239.89 ( )		Port: 80 open
+166.104.239.139 (eec.hanyang.ac.kr)		Port: 80 open
+166.104.239.143 ( )		Port: 80 open
+166.104.239.140 (cb.hysc.hanyang.ac.kr)		Port: 80 open
+166.104.239.162 ( )		Port: 80 open
+166.104.240.51 ( )		Port: 80 open
+
+Total open hosts: 159 host(s)
+Scan duration: 0 hour(s) 21 min(s) 53.94 sec(s)
