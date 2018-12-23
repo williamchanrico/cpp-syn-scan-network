@@ -42,7 +42,7 @@ Scan duration: 0 hour(s) 0 min(s) 1.0326 sec(s)
 ```
 
 ## Preview
-![Screenshot](screenshot01.png?raw=true "Screenshot")
+![Screenshot](screenshots/screenshot01.png?raw=true "Screenshot")
 
 ## Used Compiler
 ```
